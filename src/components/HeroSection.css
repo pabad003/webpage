@@ -4,6 +4,7 @@
     padding: 400px 20px 50px; /* Espaciado interno */
     text-align: center;
     z-index: 10; /* Asegura que HeroSection esté encima de MovingCircles */
+    
 }
 
 .hero-section h1 {
@@ -18,7 +19,7 @@
     font-size: 1.2rem;
     color: black;
     line-height: 1.6;
-    width: 900px;
+    width: 80%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 10;
 }
