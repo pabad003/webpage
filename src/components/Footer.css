@@ -1,0 +1,33 @@
+/* src/components/Footer.css */
+
+.footer {
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.footer ul {
+    list-style: none; /* Elimina los estilos de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    display: flex; /* Muestra los elementos en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.footer li {
+    margin: 0 10px; /* Espacio entre elementos */
+}
+
+.footer a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #333; /* Color del texto */
+}
+
+.footer img {
+    width: 60px; /* Ancho de la imagen */
+    height: 60px; /* Altura de la imagen */
+    margin-right: 5px; /* Espacio a la derecha de la imagen */
+    transition: transform 0.2s, filter 0.2s; /* Agrega transición para suavizar el cambio */
+}
+.footer img:hover {
+    transform: scale(1.2); 
+    filter: hue-rotate(180deg);
+}

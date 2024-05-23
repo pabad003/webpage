@@ -1,0 +1,38 @@
+/* src/components/Extracurriculars.css */
+.extracurriculars-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    padding: 50px 20px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido horizontalmente */
+    z-index: 1;
+}
+
+.extracurriculars-container {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: fit-content;
+    max-width: 70%;
+    border: 2px solid black; /* Define el color y ancho del borde */
+}
+
+
+.extracurriculars-section h2 {
+    font-size: 2rem; /* Tamaño del título */
+    color: #333; /* Color del título */
+    margin-bottom: 40px; /* Espacio inferior */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.extracurriculars-section p {
+    font-size: 1.2rem; /* Tamaño del texto */
+    color: #666; /* Color del texto */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

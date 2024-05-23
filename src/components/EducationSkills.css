@@ -1,0 +1,64 @@
+.education-skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido horizontalmente */
+
+}
+
+.education-skills-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: fit-content;
+    max-width: 90%;
+    border: 2px solid black; /* Define el color y ancho del borde */
+}
+
+.education-skills-section h2 {
+    font-size: 2rem; /* Tamaño del título */
+    color: #333; /* Color del título */
+    margin-bottom: 40px; /* Espacio inferior */
+}
+
+.education h3,
+.skills h3 {
+    font-size: 1.5rem; /* Tamaño del título */
+    color: #666; /* Color del título */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+
+
+
+.education strong,
+.skills strong {
+    font-weight: bold; /* Texto en negrita */
+    color: #333; /* Color del texto */
+}
+
+.education p,
+.skills p {
+    margin: 10px 0; /* Espacio entre párrafos */
+}
+
+.education ul,
+.skills ul {
+    list-style: none; /* Elimina los estilos de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    text-align: center; /* Centra el contenido de la lista horizontalmente */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.education li,
+.skills li {
+    margin-left: 0; /* Reinicia el margen izquierdo */
+    margin-right: 10px; /* Añade margen derecho para separar los elementos */
+    display: block; /* Cambia la visualización a bloque */
+    width: 100%; /* Ancho completo */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
