@@ -13,7 +13,7 @@ const AboutSection = () => {
                     program completing my third year.           
                 </p>
                 <a href="https://github.com/pabad003/cs110/blob/main/PaulaCV.pdf" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/doc3.png" alt="Contact" /> {/* Aquí agregamos la imagen */}
+                            <img src="images/doc3.png" alt="Contact" /> {/* Aquí agregamos la imagen */}
                 </a>
                 </div>
         </section>
